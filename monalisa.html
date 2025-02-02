@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emoticon Mona Lisa Octocat</title>
+  </head>
+  <body>
+    <div id = "Mona">Tap Mona for emoticon</div>
+    <p>🐙</p>    
+  </body>
+  
+  <style>
+  	body {
+    	font: Arial;
+    }
+    p {
+      font-size: 50px;
+    }
+    #Mona {
+    	font-size: 50px;
+    }
+    #Mona:hover {
+    	transform: scale(1.0px);
+    }
+  </style>
+  
+  <script>
+  	const Mona = document.querySelector('#Mona');
+    const Monas = ["🐱", "😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾"];
+    Mona.addEventListener('click', () => {
+    	const randomIndex =
+        Math.floor(Math.random() * Monas.length);
+        
+        Mona.innerHTML = Monas[randomIndex];
+        });
+  </script>
+</html>
