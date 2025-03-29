@@ -1,0 +1,5 @@
+<head
+  hubot:lcd="lcd"
+  hubot:crt="crt"
+  hubot:skinColor="yellow">
+</head>
