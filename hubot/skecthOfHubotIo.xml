@@ -1,5 +1,17 @@
-<head
-  hubot:lcd="lcd"
-  hubot:crt="crt"
-  hubot:skinColor="yellow">
+<?xml version="1.0" encoding="UTF-8"?>
+<title>Sketch of HubotIo</title>
+<head>
+  <lcd
+    hubot:lcd="lcd"
+    hubot:crt="crt"
+    hubot:skinColor="yellow"/>
 </head>
+<body>
+  <arms
+    hubot:skinColor="yellow"
+    hubot:skinColor="orange"
+    hubot:property="electricity"
+    hubot:property="fork" />
+  <under
+    hubot:property="electricity" />
+</body>
